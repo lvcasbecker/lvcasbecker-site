@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lvcas Becker — Projeto</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+  <a class="logo" href="index.html" id="logo"></a>
+  <nav>
+    <a href="index.html#trabalhos" class="atual">Trabalhos</a>
+    <a href="index.html#sobre">Sobre</a>
+    <a href="index.html#contato">Contato</a>
+  </nav>
+</header>
+
+<section class="projeto-topo">
+  <a class="migalha" id="voltar" href="index.html#trabalhos">← Voltar</a>
+  <div class="rotulo" id="rotulo"></div>
+  <h1 id="nome"></h1>
+  <div class="meta" id="meta"></div>
+  <p class="descricao" id="descricao"></p>
+</section>
+
+<main class="projeto-midias" id="midias"></main>
+
+<nav class="projeto-nav">
+  <a id="anterior" href="#">← Projeto anterior</a>
+  <a id="proximo" href="#">Próximo projeto →</a>
+</nav>
+
+<footer>
+  <div>© 2026 Lucas Becker</div>
+  <div>lvcasbecker.com</div>
+</footer>
+
+<script src="dados.js"></script>
+<script src="site.js"></script>
+<script>
+  montarHeader();
+  const slug = pegarParam('p');
+  const i = PROJECTS.findIndex(p => p.slug === slug);
+  const p = PROJECTS[i] || PROJECTS[0];
+
+  document.title = `Lvcas Becker — ${p.nome}`;
+  document.getElementById('voltar').href = `categoria.html?c=${p.categoria}`;
+  document.getElementById('voltar').textContent = `← ${nomeDaCategoria(p.categoria)}`;
+  document.getElementById('rotulo').textContent = p.rotulo;
+  document.getElementById('nome').textContent = p.nome;
+
+  const elMeta = document.getElementById('meta');
+  if (p.ano) elMeta.textContent = p.ano; else elMeta.remove();
+
+  const desc = document.getElementById('descricao');
+  if (p.descricao) desc.textContent = p.descricao; else desc.remove();
+
+  const alt = `${p.rotulo} — ${p.nome}`;
+  document.getElementById('midias').innerHTML =
+    (p.midias || []).map(m => renderMidia(m, alt)).join('') +
+    (p.creditos ? `<div class="projeto-creditos">${p.creditos}</div>` : '');
+
+  // navegação anterior/próximo dentro da mesma categoria
+  const daCategoria = PROJECTS.filter(x => x.categoria === p.categoria);
+  const pos = daCategoria.findIndex(x => x.slug === p.slug);
+  const ant = daCategoria[pos - 1], prox = daCategoria[pos + 1];
+  const elAnt = document.getElementById('anterior');
+  const elProx = document.getElementById('proximo');
+  if (ant) elAnt.href = `projeto.html?p=${ant.slug}`; else elAnt.classList.add('off');
+  if (prox) elProx.href = `projeto.html?p=${prox.slug}`; else elProx.classList.add('off');
+</script>
+</body>
+</html>

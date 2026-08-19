@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lvcas Becker — Trabalhos</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+  <a class="logo" href="index.html" id="logo"></a>
+  <nav>
+    <a href="index.html#trabalhos" class="atual">Trabalhos</a>
+    <a href="index.html#sobre">Sobre</a>
+    <a href="index.html#contato">Contato</a>
+  </nav>
+</header>
+
+<section class="pagina-topo">
+  <a class="migalha" href="index.html#trabalhos">← Voltar</a>
+  <h1 id="titulo-categoria"></h1>
+</section>
+
+<main class="grid" id="grid"></main>
+
+<footer>
+  <div>© 2026 Lucas Becker</div>
+  <div>lvcasbecker.com</div>
+</footer>
+
+<script src="dados.js"></script>
+<script src="site.js"></script>
+<script>
+  montarHeader();
+  const slug = pegarParam('c') || CATEGORIAS[0].slug;
+  const nome = nomeDaCategoria(slug);
+  document.title = `Lvcas Becker — ${nome}`;
+  document.getElementById('titulo-categoria').innerHTML =
+    nome.replace('&amp;','&').replace(' & ',' <em>&</em> ');
+
+  const grid = document.getElementById('grid');
+  const lista = PROJECTS.filter(p => p.categoria === slug);
+  lista.forEach(p => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = `projeto.html?p=${p.slug}`;
+    a.innerHTML = `
+      <div class="card-img"><img src="${p.capa}" alt="${p.rotulo} — ${p.nome}" loading="lazy"></div>
+      <div class="card-legenda"><b>${p.rotulo}</b><span>/ ${p.nome}</span></div>`;
+    grid.appendChild(a);
+  });
+</script>
+</body>
+</html>

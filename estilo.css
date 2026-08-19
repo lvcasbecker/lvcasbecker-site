@@ -1,0 +1,196 @@
+/* ================================================================
+   LVCASBECKER.COM — ESTILO
+   PARA TROCAR A FONTE: mude a linha --fonte abaixo.
+   Fonte do Google Fonts? Adicione o <link> dela no <head> das
+   páginas e escreva o nome aqui. Fonte própria (arquivo .woff2)?
+   Salve em assets/ e descomente o bloco @font-face abaixo.
+   PARA TROCAR AS CORES: mude os valores de --preto e --rosa.
+   ================================================================ */
+
+/*
+@font-face{
+  font-family:"MinhaFonte";
+  src:url("assets/minha-fonte.woff2") format("woff2");
+  font-weight:400 700;
+}
+*/
+
+:root{
+  --branco:#ffffff;
+  --preto:#0a0a0a;
+  --rosa:#ec0f7f;
+  --cinza:#9a9a9a;
+  --linha:#e8e8e8;
+  --fonte:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--fonte);
+  background:var(--branco);
+  color:var(--preto);
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  display:flex;flex-direction:column;
+}
+::selection{background:var(--rosa);color:var(--branco)}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+button{font-family:inherit;background:none;border:none;cursor:pointer;color:inherit}
+:focus-visible{outline:2px solid var(--rosa);outline-offset:3px}
+
+/* ---------- header ---------- */
+header{
+  position:sticky;top:0;z-index:50;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:18px 4vw;
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--linha);
+}
+.logo{font-weight:700;font-size:15px;letter-spacing:-.02em;text-transform:uppercase}
+.logo span{color:var(--rosa)}
+.logo img{height:26px;width:auto}
+header nav{display:flex;gap:28px}
+header nav a{font-size:12px;text-transform:uppercase;letter-spacing:.14em}
+header nav a:hover, header nav a.atual{color:var(--rosa)}
+
+/* ---------- home: índice de categorias ---------- */
+.hero-home{padding:110px 4vw 30px}
+.hero-home h1{
+  font-weight:700;
+  font-size:clamp(44px, 9vw, 130px);
+  line-height:.9;letter-spacing:-.045em;text-transform:uppercase;
+}
+.hero-home h1 img{max-height:clamp(60px,14vw,170px);width:auto}
+.hero-home h1 span{color:var(--rosa)}
+.hero-home .sub{
+  margin-top:22px;
+  font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--cinza);
+}
+.indice{
+  margin:50px 0 90px;
+}
+.indice a{
+  display:flex;align-items:baseline;justify-content:space-between;gap:16px;
+  padding:20px 4vw;
+  transition:background .2s, color .2s;
+}
+.indice .cat-nome{
+  font-weight:700;
+  font-size:clamp(28px, 5.5vw, 72px);
+  letter-spacing:-.035em;text-transform:uppercase;line-height:1;
+}
+.indice .cat-meta{
+  font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--cinza);
+  white-space:nowrap;
+}
+.indice a:hover{background:var(--rosa);color:var(--branco)}
+.indice a:hover .cat-meta{color:var(--branco)}
+
+/* ---------- páginas internas: título ---------- */
+.pagina-topo{padding:60px 4vw 30px}
+.migalha{
+  font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--cinza);
+  margin-bottom:14px;display:inline-block;
+}
+.migalha:hover{color:var(--rosa)}
+.pagina-topo h1{
+  font-weight:700;
+  font-size:clamp(34px, 6.5vw, 88px);
+  letter-spacing:-.04em;line-height:.95;text-transform:uppercase;
+}
+.pagina-topo h1 em{font-style:normal;color:var(--rosa)}
+
+/* ---------- grid de projetos ---------- */
+.grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:14px;padding:26px 4vw 90px;
+}
+.card{display:block;text-align:left}
+.card-img{position:relative;overflow:hidden;aspect-ratio:4/5;background:#f3f3f3}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.card:hover .card-img img{transform:scale(1.04)}
+.card-img::after{content:"";position:absolute;inset:0;background:var(--rosa);opacity:0;transition:opacity .25s}
+.card:hover .card-img::after{opacity:.28}
+.card-legenda{display:flex;gap:6px;align-items:baseline;margin-top:10px;font-size:13.5px}
+.card-legenda b{font-weight:700}
+.card-legenda span{color:var(--cinza)}
+.card:hover .card-legenda span{color:var(--rosa)}
+
+/* ---------- página de projeto ---------- */
+.projeto-topo{padding:60px 4vw 10px;max-width:1240px;margin:0 auto;width:100%}
+.projeto-topo .rotulo{
+  font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--rosa);
+  font-weight:700;margin-bottom:12px;
+}
+.projeto-topo h1{
+  font-weight:700;font-size:clamp(32px,5.5vw,72px);
+  letter-spacing:-.035em;line-height:1;
+}
+.projeto-topo .meta{
+  margin-top:14px;font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--cinza);
+}
+.projeto-topo .descricao{
+  margin-top:22px;max-width:640px;
+  font-size:17px;line-height:1.55;
+}
+.projeto-midias{max-width:1240px;margin:34px auto 0;padding:0 4vw;width:100%}
+.projeto-midias > *{width:100%;margin-bottom:22px}
+.projeto-midias video{background:#000}
+.midia-embed{position:relative;aspect-ratio:16/9;background:#000}
+.midia-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.projeto-creditos{
+  font-size:12px;color:var(--cinza);text-transform:uppercase;letter-spacing:.1em;
+  line-height:2;padding-top:10px;border-top:1px solid var(--linha);white-space:pre-line;
+}
+.projeto-nav{
+  max-width:1240px;margin:40px auto 0;padding:20px 4vw 80px;width:100%;
+  display:flex;justify-content:space-between;gap:20px;
+  font-size:13px;font-weight:700;
+}
+.projeto-nav a:hover{color:var(--rosa)}
+.projeto-nav .off{visibility:hidden}
+
+/* ---------- sobre + contato (home) ---------- */
+.sobre{
+  border-top:1px solid var(--preto);
+  padding:70px 4vw;
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:50px;
+}
+.sobre-foto img{width:100%;max-width:420px;filter:grayscale(1)}
+.sobre h2,.contato h2{
+  font-size:12px;text-transform:uppercase;letter-spacing:.14em;
+  color:var(--rosa);margin-bottom:22px;font-weight:700;
+}
+.sobre p{font-size:clamp(17px,1.9vw,24px);line-height:1.45;letter-spacing:-.015em;margin-bottom:1em}
+.sobre p b{font-weight:700}
+.sobre .destaque{color:var(--rosa)}
+.contato{border-top:1px solid var(--preto);padding:70px 4vw 90px}
+.contato-links{display:flex;flex-direction:column;gap:4px}
+.contato-links a{
+  font-weight:700;font-size:clamp(26px,4.5vw,56px);
+  letter-spacing:-.03em;line-height:1.15;width:fit-content;
+}
+.contato-links a:hover{color:var(--rosa)}
+
+footer{
+  margin-top:auto;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;
+  padding:20px 4vw;border-top:1px solid var(--linha);
+  font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--cinza);
+}
+
+@media (max-width:900px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .sobre{grid-template-columns:1fr}
+  .sobre-foto{order:-1}
+}
+@media (max-width:560px){
+  .grid{grid-template-columns:1fr}
+  nav{gap:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none !important}
+  html{scroll-behavior:auto}
+}

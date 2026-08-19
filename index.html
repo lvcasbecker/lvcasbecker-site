@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lvcas Becker — Direção de Arte, Design e Direção Criativa</title>
+<meta name="description" content="Portfólio de Lucas Becker — direção de arte, design, direção criativa e produção de moda. Recife, BR.">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+  <a class="logo" href="index.html" id="logo"></a>
+  <nav>
+    <a href="#trabalhos">Trabalhos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section class="hero-home">
+  <h1 id="hero-nome"></h1>
+  <div class="sub">Direção de Arte&nbsp;&nbsp;/&nbsp;&nbsp;Design&nbsp;&nbsp;/&nbsp;&nbsp;Direção Criativa&nbsp;&nbsp;/&nbsp;&nbsp;Moda — Recife, BR</div>
+</section>
+
+<nav class="indice" id="trabalhos" aria-label="Categorias de trabalho"></nav>
+
+<section class="sobre" id="sobre">
+  <div class="sobre-foto"><img src="assets/retrato.jpg" alt="Retrato de Lucas Becker"></div>
+  <div>
+    <h2>Sobre</h2>
+    <p>Sou uma pessoa criativa e curiosa, apaixonada por transformar ideias em imagens que comunicam com impacto e autenticidade. Acredito que o design é mais do que estética: é uma forma de contar histórias, criar conexões e dar identidade a cada projeto.</p>
+    <p>Atuo criando campanhas que integram <b>direção de arte, design e direção criativa</b>, sempre com foco em narrativas visuais coerentes e marcantes. A cultura pop, a moda e a música estão sempre entre as minhas referências — também assino o <span class="destaque">Brazilian Camp (@acervocampbr)</span>, uma curadoria pessoal que reúne o camp no contexto brasileiro.</p>
+    <p>Estou aberto a novos projetos e colaborações.</p>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <h2>Contato</h2>
+  <div class="contato-links" id="contato-links"></div>
+</section>
+
+<footer>
+  <div>© 2026 Lucas Becker</div>
+  <div>lvcasbecker.com</div>
+</footer>
+
+<script src="dados.js"></script>
+<script src="site.js"></script>
+<script>
+  montarHeader();
+
+  // hero: logo grande ou nome em texto (com ponto rosa)
+  const hero = document.getElementById('hero-nome');
+  if (CONFIG.logo) {
+    hero.innerHTML = `<img src="${CONFIG.logo}" alt="${CONFIG.nome}">`;
+  } else {
+    hero.innerHTML = CONFIG.nome.replace(' ', '<br>') + '<span>.</span>';
+  }
+
+  // índice de categorias
+  const indice = document.getElementById('trabalhos');
+  CATEGORIAS.forEach(cat => {
+    const n = PROJECTS.filter(p => p.categoria === cat.slug).length;
+    const a = document.createElement('a');
+    a.href = `categoria.html?c=${cat.slug}`;
+    a.innerHTML = `<span class="cat-nome">${cat.nome}</span>`;
+    indice.appendChild(a);
+  });
+
+  // contato
+  document.getElementById('contato-links').innerHTML = `
+    <a href="mailto:${CONFIG.email}">${CONFIG.email}</a>
+    <a href="${CONFIG.instagram}" target="_blank" rel="noopener">@lvcasbecker</a>
+    <a href="${CONFIG.acervo}" target="_blank" rel="noopener">@acervocampbr</a>
+    <a href="${CONFIG.behance}" target="_blank" rel="noopener">Behance</a>
+    <a href="${CONFIG.linkedin}" target="_blank" rel="noopener">LinkedIn</a>`;
+</script>
+</body>
+</html>
