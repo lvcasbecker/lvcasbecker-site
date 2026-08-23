@@ -187,10 +187,26 @@ footer{
   .sobre-foto{order:-1}
 }
 @media (max-width:560px){
-  .grid{grid-template-columns:1fr}
-  nav{gap:16px}
+  .grid{grid-template-columns:repeat(2,1fr);gap:10px}
+  .card-legenda{font-size:12px}
 }
 @media (prefers-reduced-motion:reduce){
   *{transition:none !important}
   html{scroll-behavior:auto}
 }
+/* ---------- página de entrada (splash) ---------- */
+.entrada{
+  position:fixed;inset:0;z-index:200;
+  background:#0a0a0a;
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;
+  transition:opacity .4s ease;
+}
+.entrada h1{
+  color:#fff;font-weight:700;
+  font-size:clamp(30px, 8vw, 120px);
+  letter-spacing:-.045em;text-transform:uppercase;
+  text-align:center;line-height:.9;
+}
+.entrada h1 span{color:var(--rosa)}
+.entrada.saindo{opacity:0;pointer-events:none}
