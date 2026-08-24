@@ -41,10 +41,13 @@ const CATEGORIAS = [
       categoria certa (o primeiro aparece primeiro) e ajuste.
 
    TIPOS DE MÍDIA aceitos na lista "midias":
-     { tipo:"imagem",  src:"assets/projetos/meu-projeto/01.jpg" }
-     { tipo:"video",   src:"assets/projetos/meu-projeto/video.mp4" }
-     { tipo:"youtube", id:"dQw4w9WgXcQ" }   ← só o código do link
-     { tipo:"vimeo",   id:"123456789" }     ← só o número do link
+     { tipo:"imagem",  src:"assets/projetos/meu-projeto/01.jpg", largura:"dupla" }
+     { tipo:"video",   src:"assets/projetos/meu-projeto/video.mp4", largura:"dupla" }
+     { tipo:"youtube", id:"dQw4w9WgXcQ", largura:"dupla" }   ← só o código do link
+     { tipo:"vimeo",   id:"123456789", largura:"dupla" }     ← só o número do link
+
+   LARGURAS: "dupla" (2 por fileira — o padrão se não escrever),
+   "trio" (3 por fileira) ou "sozinha" (1 na fileira).
 
    CAMPOS OPCIONAIS (pode apagar a linha se não quiser usar):
      ano, descricao, creditos
@@ -72,7 +75,9 @@ const PROJECTS = [
     categoria: "design",
     rotulo: "Branding",
     nome: "Brazilian Camp @acervocampbr",
+    ano: "2025",
     capa: "assets/projetos/branding-acervocampbr/capa.jpg",
+    descricao: "Identidade visual do acervo: logo, sistema gráfico e linguagem para os conteúdos da curadoria.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/branding-acervocampbr/capa.jpg" },
     ],
@@ -82,7 +87,9 @@ const PROJECTS = [
     categoria: "design",
     rotulo: "Rebranding",
     nome: "Bruna Paz Brand",
+    ano: "2025",
     capa: "assets/projetos/rebranding-bruna-paz/capa.jpg",
+    descricao: "Redesenho da identidade da marca — refinamento do logotipo, paleta e aplicações em embalagem e aviamentos.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/rebranding-bruna-paz/capa.jpg" },
     ],
@@ -90,9 +97,11 @@ const PROJECTS = [
   {
     slug: "branding-bruna-paz",
     categoria: "design",
-    rotulo: "Branding",
-    nome: "Bruna Paz Brand",
+    rotulo: "Dir. de Arte",
+    nome: "Bruna Paz",
+    ano: "2025",
     capa: "assets/projetos/branding-bruna-paz/capa.jpg",
+    descricao: "Materiais de comunicação e ativações da marca — convites, stickers e peças sazonais.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/branding-bruna-paz/capa.jpg" },
     ],
@@ -102,7 +111,9 @@ const PROJECTS = [
     categoria: "design",
     rotulo: "Dir. de Arte",
     nome: "Wonder Óculos",
+    ano: "2025",
     capa: "assets/projetos/wonder-oculos/capa.jpg",
+    descricao: "Campanha Les Recifenses — direção de arte que transforma o vocabulário visual de Recife em linguagem de marca.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/wonder-oculos/capa.jpg" },
     ],
@@ -112,7 +123,9 @@ const PROJECTS = [
     categoria: "design",
     rotulo: "Dir. de Arte",
     nome: "MoMa House",
+    ano: "2026",
     capa: "assets/projetos/moma-house/capa.jpg",
+    descricao: "Direção de arte para as frentes da marca — conteúdo, imersões e comunicação institucional.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/moma-house/capa.jpg" },
     ],
@@ -122,7 +135,9 @@ const PROJECTS = [
     categoria: "design",
     rotulo: "Dir. de Arte",
     nome: "House of Rufino",
+    ano: "2025",
     capa: "assets/projetos/house-of-rufino/capa.jpg",
+    descricao: "Identidade e direção de arte com referências de renda, bordado e memória afetiva de mesa posta.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/house-of-rufino/capa.jpg" },
     ],
@@ -132,7 +147,9 @@ const PROJECTS = [
     categoria: "design",
     rotulo: "Dir. de Arte",
     nome: "Six Wowness Club",
+    ano: "2026",
     capa: "assets/projetos/six-wowness/capa.jpg",
+    descricao: "Direção de arte para o clube e suas unidades — sistema visual, eventos e comunicação members only.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/six-wowness/capa.jpg" },
     ],
@@ -142,7 +159,9 @@ const PROJECTS = [
     categoria: "design",
     rotulo: "Branding",
     nome: "MOB Studio",
+    ano: "2024",
     capa: "assets/projetos/mob-studio/capa.jpg",
+    descricao: "Peças de identidade e comunicação para marcas do estúdio — do food ao beauty.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/mob-studio/capa.jpg" },
     ],
@@ -152,7 +171,9 @@ const PROJECTS = [
     categoria: "design",
     rotulo: "Camisetas",
     nome: "Ladder Brand",
+    ano: "2025",
     capa: "assets/projetos/camisetas-ladder/capa.jpg",
+    descricao: "Estampas autorais para a marca — ilustração e tipografia com referência retrô americana.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/camisetas-ladder/capa.jpg" },
     ],
@@ -164,7 +185,9 @@ const PROJECTS = [
     categoria: "criativa",
     rotulo: "Dir. Criativa",
     nome: "Brazilian Camp — O Ensaio",
+    ano: "2025",
     capa: "assets/projetos/ensaio-brazilian-camp/capa.jpg",
+    descricao: "Ensaio fotográfico em três atos que traduz ícones do imaginário camp brasileiro em imagem de moda.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/ensaio-brazilian-camp/capa.jpg" },
     ],
@@ -181,7 +204,9 @@ Modelos: Lorena Bispo @lorenabispo__ / Eliz Xavier @elizzxavier`,
     categoria: "criativa",
     rotulo: "Dir. Criativa",
     nome: "Bruna Paz Brand",
+    ano: "2025",
     capa: "assets/projetos/dir-criativa-bruna-paz/capa.jpg",
+    descricao: "Direção criativa de campanhas da marca — conceito, locação e construção de imagem.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/dir-criativa-bruna-paz/capa.jpg" },
     ],
@@ -194,7 +219,9 @@ Modelos: Zarcia Mendes @zarciamendes / Ashley Nicole @ashleynicolebrasil`,
     categoria: "criativa",
     rotulo: "Dir. Criativa",
     nome: "Caba",
+    ano: "2025",
     capa: "assets/projetos/caba/capa.jpg",
+    descricao: "Direção criativa de campanha masculina — alfaiataria leve em diálogo com a arquitetura.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/caba/capa.jpg" },
     ],
@@ -209,7 +236,9 @@ Styling: Gabriela Queiroz @gabqueif`,
     categoria: "moda",
     rotulo: "Prod. de Moda",
     nome: "Cleber Lima",
+    ano: "2025",
     capa: "assets/projetos/cleber-lima/capa.jpg",
+    descricao: "Produção de moda para editorial em preto e branco — silhuetas gráficas e acessórios como pontuação.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/cleber-lima/capa.jpg" },
     ],
@@ -222,7 +251,9 @@ Styling: Maria Luisa Lisboa @lisboamarialuisa`,
     categoria: "moda",
     rotulo: "Prod. de Moda",
     nome: "Maré Suspensa",
+    ano: "2025",
     capa: "assets/projetos/mare-suspensa/capa.jpg",
+    descricao: "Editorial de moda à beira-mar — texturas metálicas e drapeados contra a paisagem da maré.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/mare-suspensa/capa.jpg" },
     ],
@@ -235,7 +266,9 @@ Styling: Maria Luisa Lisboa @lisboamarialuisa`,
     categoria: "moda",
     rotulo: "Prod. de Moda",
     nome: "Bruna Paz Brand",
+    ano: "2025",
     capa: "assets/projetos/moda-bruna-paz/capa.jpg",
+    descricao: "Produção de moda para campanha da marca — looks, locação e narrativa de coleção.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/moda-bruna-paz/capa.jpg" },
     ],
@@ -248,7 +281,9 @@ Modelo: Guilhermina Montarroyos @guimontarroyos`,
     categoria: "moda",
     rotulo: "Prod. de Moda",
     nome: "Ensaio Autoral",
+    ano: "2025",
     capa: "assets/projetos/ensaio-autoral/capa.jpg",
+    descricao: "Ensaio autoral de estúdio.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/ensaio-autoral/capa.jpg" },
     ],
@@ -261,7 +296,9 @@ Modelo: Sabryna Oliveira @sabrynaoliveirra`,
     categoria: "moda",
     rotulo: "Prod. de Moda",
     nome: "Amazing Model",
+    ano: "2025",
     capa: "assets/projetos/amazing-model/capa.jpg",
+    descricao: "Produção de moda para material de polaroides de agência.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/amazing-model/capa.jpg" },
     ],
@@ -274,7 +311,9 @@ Modelo: Amanda Souza @amandastepha`,
     categoria: "moda",
     rotulo: "Prod. de Moda",
     nome: "Ladder Brand",
+    ano: "2025",
     capa: "assets/projetos/moda-ladder/capa.jpg",
+    descricao: "Produção de moda para editorial da marca",
     midias: [
       { tipo: "imagem", src: "assets/projetos/moda-ladder/capa.jpg" },
     ],
