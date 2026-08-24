@@ -88,7 +88,6 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/18.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/19.jpg", largura: "sozinha" },
     ],
-    ],
   },
   {
     slug: "branding-acervocampbr",
