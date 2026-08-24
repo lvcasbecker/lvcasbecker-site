@@ -108,7 +108,7 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/39.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/40.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/41.jpg", largura: "dupla" },
-      { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/42.jpg", largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/42.jpg", largura: "dupla" },
     ],
   },
   {
