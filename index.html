@@ -7,9 +7,26 @@
 <meta name="description" content="Portfólio de Lucas Becker — direção de arte, design, direção criativa e produção de moda.">
 <link rel="stylesheet" href="estilo.css">
 </head>
-<body> <div class="entrada" id="entrada">
+<body>
+
+<div class="entrada" id="entrada">
   <h1>Lvcas Becker<span>.</span></h1>
 </div>
+
+<script>
+  // página de entrada: aparece ao abrir o site, some ao clicar
+  (function(){
+    const entrada = document.getElementById('entrada');
+    if (sessionStorage.getItem('entrou')) { entrada.remove(); return; }
+    document.body.style.overflow = 'hidden';
+    entrada.addEventListener('click', () => {
+      sessionStorage.setItem('entrou', '1');
+      entrada.classList.add('saindo');
+      document.body.style.overflow = '';
+      setTimeout(() => entrada.remove(), 400);
+    });
+  })();
+</script>
 
 <header>
   <a class="logo" href="index.html" id="logo"></a>
@@ -22,7 +39,6 @@
 
 <section class="hero-home">
   <h1 id="hero-nome"></h1>
-  <div </div>
 </section>
 
 <nav class="indice" id="trabalhos" aria-label="Categorias de trabalho"></nav>
@@ -32,9 +48,9 @@
   <div>
     <h2>Sobre</h2>
     <p>Atuo na interseção entre <b>direção de arte, design e direção criativa</b>, desenvolvendo projetos e campanhas a partir de narrativas visuais que conectam conceito, estética e comunicação.</p>
-<p>Meu trabalho é atravessado por referências de <b>moda, cultura pop, música e entretenimento</b>, áreas que também fazem parte da minha pesquisa e repertório. Sou criador do <a href="https://www.instagram.com/acervocampbr" target="_blank" rel="noopener"><b><span class="destaque">Brazilian Camp (@acervocampbr)</span></b></a>, uma curadoria dedicada a investigar e reunir manifestações do camp no contexto brasileiro.</p>
-<p>Gosto de trabalhar de forma próxima ao projeto, da construção do conceito aos seus desdobramentos visuais, buscando sempre encontrar uma linguagem que seja consistente, relevante e tenha personalidade.</p>
-<p>Atualmente, estou aberto a novos projetos, colaborações e oportunidades.</p>
+    <p>Meu trabalho é atravessado por referências de <b>moda, cultura pop, música e entretenimento</b>, áreas que também fazem parte da minha pesquisa e repertório. Sou criador do <a href="https://www.instagram.com/acervocampbr" target="_blank" rel="noopener"><b><span class="destaque">Brazilian Camp (@acervocampbr)</span></b></a>, uma curadoria dedicada a investigar e reunir manifestações do camp no contexto brasileiro.</p>
+    <p>Gosto de trabalhar de forma próxima ao projeto, da construção do conceito aos seus desdobramentos visuais, buscando sempre encontrar uma linguagem que seja consistente, relevante e tenha personalidade.</p>
+    <p>Atualmente, estou aberto a novos projetos, colaborações e oportunidades.</p>
   </div>
 </section>
 
@@ -64,7 +80,6 @@
   // índice de categorias
   const indice = document.getElementById('trabalhos');
   CATEGORIAS.forEach(cat => {
-    const n = PROJECTS.filter(p => p.categoria === cat.slug).length;
     const a = document.createElement('a');
     a.href = `categoria.html?c=${cat.slug}`;
     a.innerHTML = `<span class="cat-nome">${cat.nome}</span>`;
@@ -72,7 +87,7 @@
   });
 
   // contato
-   document.getElementById('contato-links').innerHTML = `
+  document.getElementById('contato-links').innerHTML = `
     <a href="#" id="copiar-email">${CONFIG.email}</a>
     <a href="${CONFIG.instagram}" target="_blank" rel="noopener">@lvcasbecker</a>
     <a href="${CONFIG.acervo}" target="_blank" rel="noopener">@acervocampbr</a>
@@ -91,20 +106,6 @@
       }, 1600);
     });
   });
-
-  // página de entrada: aparece ao abrir o site, some ao clicar
-  const entrada = document.getElementById('entrada');
-  if (sessionStorage.getItem('entrou')) {
-    entrada.remove();
-  } else {
-    document.body.style.overflow = 'hidden';
-    entrada.addEventListener('click', () => {
-      sessionStorage.setItem('entrou', '1');
-      entrada.classList.add('saindo');
-      document.body.style.overflow = '';
-      setTimeout(() => entrada.remove(), 400);
-    });
-  }
-</script> 
+</script>
 </body>
 </html>
