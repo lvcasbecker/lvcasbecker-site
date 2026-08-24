@@ -221,3 +221,6 @@ footer{
 
 /* rolagem por âncora respeitando o header fixo */
 #trabalhos, #sobre, #contato{scroll-margin-top:80px}
+
+/* e-mail copiado no contato */
+.contato-links .copiado{color:var(--rosa)}
