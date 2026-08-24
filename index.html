@@ -72,12 +72,26 @@
   });
 
   // contato
-  document.getElementById('contato-links').innerHTML = `
-    <a href="mailto:${CONFIG.email}">${CONFIG.email}</a>
+   document.getElementById('contato-links').innerHTML = `
+    <a href="#" id="copiar-email">${CONFIG.email}</a>
     <a href="${CONFIG.instagram}" target="_blank" rel="noopener">@lvcasbecker</a>
     <a href="${CONFIG.acervo}" target="_blank" rel="noopener">@acervocampbr</a>
     <a href="${CONFIG.behance}" target="_blank" rel="noopener">Behance</a>
     <a href="${CONFIG.linkedin}" target="_blank" rel="noopener">LinkedIn</a>`;
+
+  // e-mail: copiar em vez de abrir o app de e-mail
+  const elEmail = document.getElementById('copiar-email');
+  elEmail.addEventListener('click', (e) => {
+    e.preventDefault();
+    navigator.clipboard.writeText(CONFIG.email).then(() => {
+      elEmail.textContent = 'Copiado ✓';
+      elEmail.classList.add('copiado');
+      setTimeout(() => {
+        elEmail.textContent = CONFIG.email;
+        elEmail.classList.remove('copiado');
+      }, 1600);
+    });
+  });
 
   // página de entrada: aparece ao abrir o site, some ao clicar
   const entrada = document.getElementById('entrada');
