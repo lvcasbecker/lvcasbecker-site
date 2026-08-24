@@ -7,7 +7,9 @@
 <meta name="description" content="Portfólio de Lucas Becker — direção de arte, design, direção criativa e produção de moda.">
 <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body> <div class="entrada" id="entrada">
+  <h1>Lvcas Becker<span>.</span></h1>
+</div>
 
 <header>
   <a class="logo" href="index.html" id="logo"></a>
@@ -76,6 +78,20 @@
     <a href="${CONFIG.acervo}" target="_blank" rel="noopener">@acervocampbr</a>
     <a href="${CONFIG.behance}" target="_blank" rel="noopener">Behance</a>
     <a href="${CONFIG.linkedin}" target="_blank" rel="noopener">LinkedIn</a>`;
-</script>
+
+  // página de entrada: aparece ao abrir o site, some ao clicar
+  const entrada = document.getElementById('entrada');
+  if (sessionStorage.getItem('entrou')) {
+    entrada.remove();
+  } else {
+    document.body.style.overflow = 'hidden';
+    entrada.addEventListener('click', () => {
+      sessionStorage.setItem('entrou', '1');
+      entrada.classList.add('saindo');
+      document.body.style.overflow = '';
+      setTimeout(() => entrada.remove(), 400);
+    });
+  }
+</script> 
 </body>
 </html>
