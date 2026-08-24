@@ -210,3 +210,6 @@ footer{
 }
 .entrada h1 span{color:var(--rosa)}
 .entrada.saindo{opacity:0;pointer-events:none}
+
+/* rolagem por âncora respeitando o header fixo */
+#trabalhos, #sobre, #contato{scroll-margin-top:80px}
