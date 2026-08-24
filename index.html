@@ -84,7 +84,7 @@
   elEmail.addEventListener('click', (e) => {
     e.preventDefault();
     navigator.clipboard.writeText(CONFIG.email).then(() => {
-      elEmail.textContent = 'Copiado ✓';
+      elEmail.textContent = 'copiado :)';
       elEmail.classList.add('copiado');
       setTimeout(() => {
         elEmail.textContent = CONFIG.email;
