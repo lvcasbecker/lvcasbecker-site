@@ -67,7 +67,7 @@ const PROJECTS = [
     capa: "assets/projetos/brazilian-camp-ed01/capa.jpg",
     descricao: "Publicação editorial que investiga as manifestações do camp no contexto brasileiro, explorando suas relações com a cultura popular, a moda, a televisão, a música, o comportamento e o imaginário coletivo. O projeto reúne pesquisa, entrevistas, ensaios visuais e textuais e um arquivo de referências, construindo uma perspectiva sobre o camp a partir de diferentes personagens, épocas, linguagens e manifestações da cultura brasileira. Como resultado, essa investigação é transformada em uma peça editorial de TCC que articula conteúdo, imagem e direção de arte, utilizando o próprio design como ferramenta de pesquisa, documentação e interpretação do camp brasileiro.",
     midias: [
-      { tipo: "video", src: "assets/projetos/brazilian-camp-ed01/00.mp4", poster: "assets/projetos/brazilian-camp-ed01/00-poster.jpg", largura: "sozinha" },
+      { tipo: "video", src: "assets/projetos/brazilian-camp-ed01/00.mp4", poster: "assets/projetos/brazilian-camp-ed01/00-poster.jpg", autoplay: true, largura: "sozinha" },,
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/01.jpg", largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/02.jpg", largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/03.jpg", largura: "sozinha" },
