@@ -141,7 +141,7 @@ header nav a:hover, header nav a.atual{color:var(--rosa)}
 }
 .projeto-midias > *{grid-column:span 3;width:100%}      /* dupla: 2 por fileira (padrão) */
 .projeto-midias > .m-trio{grid-column:span 2}           /* trio: 3 por fileira */
-.projeto-midias > .m-sozinha{grid-column:1 / span 3}    /* sozinha: 1 na fileira */
+.projeto-midias > .m-sozinha{grid-column:1 / -1}        /* sozinha: 1 na fileira */
 .projeto-midias video{background:#000}
 .midia-embed{position:relative;aspect-ratio:16/9;background:#000}
 .midia-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
