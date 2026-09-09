@@ -28,10 +28,10 @@ function renderMidia(m, altBase) {
   if (m.tipo === 'imagem') {
     return `<img${cl} src="${m.src}" alt="${altBase}" loading="lazy">`;
   }
-   if (m.tipo === 'video') {
+     if (m.tipo === 'video') {
     const poster = m.poster ? ` poster="${m.poster}"` : '';
-    const auto = m.autoplay ? ' autoplay muted loop' : '';
-    return `<video${cl} src="${m.src}"${poster}${auto} controls playsinline preload="metadata"></video>`;
+    const auto = m.autoplay ? ' autoplay muted loop' : ' controls';
+    return `<video${cl} src="${m.src}"${poster}${auto} playsinline preload="metadata"></video>`;
   }
   if (m.tipo === 'youtube') {
     return `<div class="midia-embed${clEmbed}"><iframe src="https://www.youtube-nocookie.com/embed/${m.id}" title="${altBase}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>`;
