@@ -134,6 +134,18 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/bossa/10.jpg", largura: "dupla" },
     ],
   },
+     {
+    slug: "rebranding-bruna-paz",
+    categoria: "design",
+    rotulo: "Rebranding",
+    nome: "Bruna Paz Brand",
+    ano: "2025",
+    capa: "assets/projetos/rebranding-bruna-paz/capa.jpg",
+    descricao: "Rebranding de uma marca de moda feminina feito por dentro: fui diretor de arte da Bruna Paz por dois anos, e a marca que existe hoje foi construída nesse convívio diário, não num entregável fechado. A cor foi mantida como o ativo mais forte da identidade — é por ela que a marca é reconhecida antes mesmo do nome. O gesto ficou concentrado no logotipo: afinar o peso da fonte e abrir o espacejamento entre as letras, atualizando o tom sem romper com o que o público já reconhecia. Um rebranding de baixa amplitude e efeito duradouro, que segue sustentando toda a comunicação da marca.",
+    midias: [
+      { tipo: "video", src: "assets/projetos/rebranding-bruna-paz/00.mp4", poster: "assets/projetos/rebranding-bruna-paz/00-poster.jpg", autoplay: true, largura: "sozinha" },
+    ],
+  },
   {
     slug: "branding-acervocampbr",
     categoria: "design",
@@ -144,18 +156,6 @@ const PROJECTS = [
     descricao: "Identidade visual do acervo: logo, sistema gráfico e linguagem para os conteúdos da curadoria.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/branding-acervocampbr/capa.jpg" },
-    ],
-  },
-    {
-    slug: "rebranding-bruna-paz",
-    categoria: "design",
-    rotulo: "Rebranding",
-    nome: "Bruna Paz Brand",
-    ano: "2025",
-    capa: "assets/projetos/rebranding-bruna-paz/capa.jpg",
-    descricao: "Rebranding de uma marca de moda feminina feito por dentro: fui diretor de arte da Bruna Paz por dois anos, e a marca que existe hoje foi construída nesse convívio diário, não num entregável fechado. A cor foi mantida como o ativo mais forte da identidade, é por ela que a marca é reconhecida muitas vezes antes mesmo do nome. O gesto ficou concentrado no logotipo: afinar o peso da fonte e abrir o espacejamento entre as letras, atualizando o tom sem romper com o que o público já reconhecia. Um rebranding de baixa amplitude e efeito duradouro, que segue sustentando toda a comunicação da marca.",
-    midias: [
-      { tipo: "video", src: "assets/projetos/rebranding-bruna-paz/00.mp4", poster: "assets/projetos/rebranding-bruna-paz/00-poster.jpg", autoplay: true, largura: "sozinha" },
     ],
   },
   {
