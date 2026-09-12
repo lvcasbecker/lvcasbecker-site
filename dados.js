@@ -121,6 +121,7 @@ const PROJECTS = [
     capa: "assets/projetos/bossa/capa.jpg",
     descricao: "Rebranding de uma marca de roupa feminina construído sobre uma tensão: fazer conviver a elegância da bossa carioca e a informalidade do borogodó recifense sem que uma anule a outra. A identidade foi desenhada para se comportar como as próprias peças da marca — um sistema com base fixa e aplicação flexível, que atravessa contextos diferentes sem trocar de personagem. O trabalho abrange a construção da marca, o sistema tipográfico, a paleta e o desdobramento da linguagem nos pontos de contato.",
     midias: [
+    { tipo: "video", src: "assets/projetos/bossa/00.mp4", poster: "assets/projetos/bossa/00-poster.jpg", autoplay: true, largura: "sozinha" },
     ],
   },
   {
