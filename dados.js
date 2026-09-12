@@ -184,14 +184,14 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/six-wowness/18.jpg", largura: "dupla" },
     ],
   },
-  {
+   {
     slug: "branding-acervocampbr",
     categoria: "design",
-    rotulo: "Branding",
+    rotulo: "Identidade Visual",
     nome: "Brazilian Camp @acervocampbr",
     ano: "2025",
     capa: "assets/projetos/branding-acervocampbr/capa.jpg",
-    descricao: "Identidade visual do @acervocampbr, arquivo de curadoria do camp brasileiro que criei em 2021 e mantenho sozinho desde então — concepção, pesquisa, design e conteúdo. A marca resolve a tese do próprio projeto em um gesto: uma Helvetica bold, sóbria e institucional, atravessada por uma caligrafia de floreios excessivos. O rigor e o exagero na mesma assinatura, sem que um corrija o outro. O sistema se desdobra em um monograma B que carrega os mesmos floreios, uma paleta de rosa choque, verde e roxo saturados sobre neutros, e um tratamento de imagem em halftone grosseiro que reprocessa material de arquivo da TV, das revistas e da internet brasileira. É por essa linguagem que o projeto é reconhecido hoje.",
+    descricao: "Identidade visual do @acervocampbr, arquivo de curadoria do camp brasileiro que criei em 2021 e mantenho sozinho desde então — concepção, pesquisa, design e conteúdo. A identidade resolve a tese do próprio projeto em um gesto: uma Helvetica bold, sóbria e institucional, atravessada por uma caligrafia de floreios excessivos. O rigor e o exagero na mesma assinatura, sem que um corrija o outro. O sistema se desdobra em um monograma B que carrega os mesmos floreios, uma paleta de rosa choque, verde e roxo saturados sobre neutros, e um tratamento de imagem em halftone grosseiro que reprocessa material de arquivo da TV, das revistas e da internet brasileira. É por essa identidade visual que o projeto é reconhecido hoje.",
     midias: [
       { tipo: "video", src: "assets/projetos/branding-acervocampbr/00.mp4", poster: "assets/projetos/branding-acervocampbr/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/branding-acervocampbr/01.jpg", largura: "dupla" },
