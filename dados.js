@@ -115,7 +115,7 @@ const PROJECTS = [
      {
     slug: "bossa",
     categoria: "design",
-    rotulo: "Branding",
+    rotulo: "Reranding",
     nome: "BOSSA",
     ano: "2026",
     capa: "assets/projetos/bossa/capa.jpg",
