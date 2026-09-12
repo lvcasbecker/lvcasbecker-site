@@ -120,8 +120,18 @@ const PROJECTS = [
     ano: "2026",
     capa: "assets/projetos/bossa/capa.jpg",
     descricao: "Rebranding de uma marca de roupa feminina construído sobre uma tensão: fazer conviver a elegância da bossa carioca e a informalidade do borogodó recifense sem que uma anule a outra. A identidade foi desenhada para se comportar como as próprias peças da marca — um sistema com base fixa e aplicação flexível, que atravessa contextos diferentes sem trocar de personagem. O trabalho abrange a construção da marca, o sistema tipográfico, a paleta e o desdobramento da linguagem nos pontos de contato.",
-    midias: [
-    { tipo: "video", src: "assets/projetos/bossa/00.mp4", poster: "assets/projetos/bossa/00-poster.jpg", autoplay: true, largura: "sozinha" },
+       midias: [
+      { tipo: "video", src: "assets/projetos/bossa/00.mp4", poster: "assets/projetos/bossa/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/bossa/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/08.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/09.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/10.jpg", largura: "dupla" },
     ],
   },
   {
