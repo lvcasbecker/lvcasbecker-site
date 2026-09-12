@@ -161,7 +161,7 @@ const PROJECTS = [
     nome: "Six Wowness Club",
     ano: "2026",
     capa: "assets/projetos/six-wowness/capa.jpg",
-    descricao: "Direção de arte da primeira e única academia seis estrelas do Brasil. Cada unidade ganhou identidade própria dentro do mesmo sistema: Jardins em aço e verde, Alphaville em madeira e luz baixa, Belvedere em azul e traço de caneta, Itaim no vinho do Sala — sem que nenhuma deixasse de ser reconhecida como Six. A marca opera em três registros que convivem: o SIX itálico condensado, o selo Wowness Club em serifa e a assinatura por extenso de cada unidade. O trabalho cobria o online e o offline na mesma mesa — grids de Instagram, convites de evento, garrafa, tapete, café, moletom, caixa de fósforo, sinalização. Toda decisão estética da marca passava por essa coordenação.",
+    descricao: "Direção de arte da primeira e única academia seis estrelas do Brasil. Cada unidade ganhou identidade própria dentro do mesmo sistema, individualizando o branding de cada uma para uma experiência e estética diferente, sem que nenhuma deixasse de ser reconhecida como Six. A marca opera em três registros que convivem: o SIX itálico condensado, o selo Wowness Club em serifa e a assinatura por extenso de cada unidade. O trabalho cobria o online e o offline na mesma mesa, toda decisão estética da marca passava por essa coordenação.",
     midias: [
       { tipo: "video", src: "assets/projetos/six-wowness/00.mp4", poster: "assets/projetos/six-wowness/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/six-wowness/01.jpg", largura: "dupla" },
