@@ -67,7 +67,7 @@ const PROJECTS = [
     capa: "assets/projetos/brazilian-camp-ed01/capa.jpg",
     descricao: "Publicação editorial que investiga as manifestações do camp no contexto brasileiro, explorando suas relações com a cultura popular, a moda, a televisão, a música, o comportamento e o imaginário coletivo. O projeto reúne pesquisa, entrevistas, ensaios visuais e textuais e um arquivo de referências, construindo uma perspectiva sobre o camp a partir de diferentes personagens, épocas, linguagens e manifestações da cultura brasileira. Como resultado, essa investigação é transformada em uma peça editorial de TCC que articula conteúdo, imagem e direção de arte, utilizando o próprio design como ferramenta de pesquisa, documentação e interpretação do camp brasileiro.",
     midias: [
-      { tipo: "video", src: "assets/projetos/brazilian-camp-ed01/00.mp4", poster: "assets/projetos/brazilian-camp-ed01/00-poster.jpg", autoplay: true, largura: "sozinha" },,
+      { tipo: "video", src: "assets/projetos/brazilian-camp-ed01/00.mp4", poster: "assets/projetos/brazilian-camp-ed01/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/01.jpg", largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/02.jpg", largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/03.jpg", largura: "sozinha" },
@@ -112,7 +112,7 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/brazilian-camp-ed01/42.jpg", largura: "sozinha" },
     ],
   },
-     {
+  {
     slug: "bossa",
     categoria: "design",
     rotulo: "Rebranding",
@@ -120,7 +120,7 @@ const PROJECTS = [
     ano: "2026",
     capa: "assets/projetos/bossa/capa.jpg",
     descricao: "Rebranding de uma marca de roupa feminina construído sobre uma tensão: fazer conviver a elegância da bossa carioca e a informalidade do borogodó recifense sem que uma anule a outra. A identidade foi desenhada para se comportar como as próprias peças da marca — um sistema com base fixa e aplicação flexível, que atravessa contextos diferentes sem trocar de personagem. O trabalho abrange a construção da marca, o sistema tipográfico, a paleta e o desdobramento da linguagem nos pontos de contato.",
-       midias: [
+    midias: [
       { tipo: "video", src: "assets/projetos/bossa/00.mp4", poster: "assets/projetos/bossa/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/bossa/01.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/bossa/02.jpg", largura: "dupla" },
@@ -134,7 +134,7 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/bossa/10.jpg", largura: "dupla" },
     ],
   },
-     {
+  {
     slug: "rebranding-bruna-paz",
     categoria: "design",
     rotulo: "Rebranding",
@@ -143,7 +143,7 @@ const PROJECTS = [
     capa: "assets/projetos/rebranding-bruna-paz/capa.jpg",
     descricao: "Rebranding de uma marca de moda feminina feito por dentro: fui diretor de arte da Bruna Paz por dois anos, e a marca que existe hoje foi construída nesse convívio diário, não num entregável fechado. A cor foi mantida como o ativo mais forte da identidade, e é por ela que a marca é reconhecida muitas vezes antes mesmo do nome. O gesto ficou concentrado no logotipo: afinar o peso da fonte e abrir o espacejamento entre as letras, atualizando o tom sem romper com o que o público já reconhecia. Um rebranding de baixa amplitude e efeito duradouro, que segue sustentando toda a comunicação da marca.",
     midias: [
-       { tipo: "video", src: "assets/projetos/rebranding-bruna-paz/00.mp4", poster: "assets/projetos/rebranding-bruna-paz/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "video", src: "assets/projetos/rebranding-bruna-paz/00.mp4", poster: "assets/projetos/rebranding-bruna-paz/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/rebranding-bruna-paz/01.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/rebranding-bruna-paz/02.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/rebranding-bruna-paz/03.jpg", largura: "dupla" },
@@ -154,7 +154,7 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/rebranding-bruna-paz/08.jpg", largura: "dupla" },
     ],
   },
-     {
+  {
     slug: "six-wowness",
     categoria: "design",
     rotulo: "Dir. de Arte",
@@ -184,7 +184,7 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/six-wowness/18.jpg", largura: "dupla" },
     ],
   },
-   {
+  {
     slug: "branding-acervocampbr",
     categoria: "design",
     rotulo: "Identidade Visual",
@@ -207,6 +207,7 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/branding-acervocampbr/11.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/branding-acervocampbr/12.jpg", largura: "dupla" },
     ],
+  },
   {
     slug: "branding-bruna-paz",
     categoria: "design",
