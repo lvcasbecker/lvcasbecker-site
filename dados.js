@@ -239,7 +239,6 @@ const PROJECTS = [
     descricao: "Direção de arte da Divino K, incluindo peças gráficas que dão voz a coleção e também montando a estética de acordo com o tom de voz da marca, clássica, sacra e feminina",
     midias: [
       { tipo: "video", src: "assets/projetos/divino-k/00.mp4", poster: "assets/projetos/divino-k/00-poster.jpg", autoplay: true, largura: "sozinha" },
-      { tipo: "imagem", src: "assets/projetos/divino-k/01.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/divino-k/02.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/divino-k/03.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/divino-k/04.jpg", largura: "dupla" },
