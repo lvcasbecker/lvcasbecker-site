@@ -218,7 +218,6 @@ const PROJECTS = [
     descricao: "Direção de arte da Bruna Paz ao longo de dois anos, a camada que faz a marca viver depois do rebranding, A identidade definiu o que é fixo e a direção de arte cuidou do que muda: cada coleção, cada data, cada drop pede um vocabulário próprio sem que a marca deixe de se reconhecer.O trabalho cobriu campanha e lançamento de coleção, grids de Instagram e stories, convites e peças de evento, cartelas de adesivo, papelaria e material de loja.",
     midias: [
       { tipo: "video", src: "assets/projetos/branding-bruna-paz/00.mp4", poster: "assets/projetos/branding-bruna-paz/00-poster.jpg", autoplay: true, largura: "sozinha" },
-      { tipo: "imagem", src: "assets/projetos/branding-bruna-paz/01.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/branding-bruna-paz/02.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/branding-bruna-paz/03.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/branding-bruna-paz/04.jpg", largura: "dupla" },
