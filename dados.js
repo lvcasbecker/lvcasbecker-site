@@ -231,6 +231,27 @@ const PROJECTS = [
     ],
   },
   {
+    slug: "divino-k",
+    categoria: "design",
+    rotulo: "Dir. de Arte",
+    nome: "Divino K",
+    ano: "2026",
+    capa: "assets/projetos/divino-k/capa.jpg",
+    descricao: "Direção de arte da Divino K para a coleção Canelle. A joia da marca é devocional — medalha de São Bento, cruz, símbolos de proteção — e o desafio foi tirar essa carga do altar sem perder a reverência. O recorte foi a intimidade: o casarão de piso em espinha, a luz da tarde vazando pela janela, a camisola de renda, o cachorro no chão. A joia aparece no corpo em repouso, não em pose de vitrine. Sobre essa base fotográfica corre uma camada gráfica que trabalha a mesma tensão: a caligrafia inglesa de Canelle emoldurada em renda de bilro, e a mesma assinatura rasterizada em pontos grossos, como bordado de ponto cruz visto de perto. O antigo e o digital no mesmo gesto. A paleta fica no baunilha, no dourado velho e no verde-oliva, e o material se desdobra em campanha, grids de Instagram, colagens de processo com os croquis de bancada e peças de still.",
+    midias: [
+      { tipo: "video", src: "assets/projetos/divino-k/00.mp4", poster: "assets/projetos/divino-k/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/08.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/divino-k/09.jpg", largura: "dupla" },
+    ],
+  },
+  {
     slug: "wonder-oculos",
     categoria: "design",
     rotulo: "Dir. de Arte",
@@ -252,18 +273,6 @@ const PROJECTS = [
     descricao: "Direção de arte para as frentes da marca — conteúdo, imersões e comunicação institucional.",
     midias: [
       { tipo: "imagem", src: "assets/projetos/moma-house/capa.jpg" },
-    ],
-  },
-  {
-    slug: "house-of-rufino",
-    categoria: "design",
-    rotulo: "Dir. de Arte",
-    nome: "House of Rufino",
-    ano: "2025",
-    capa: "assets/projetos/house-of-rufino/capa.jpg",
-    descricao: "Identidade e direção de arte com referências de renda, bordado e memória afetiva de mesa posta.",
-    midias: [
-      { tipo: "imagem", src: "assets/projetos/house-of-rufino/capa.jpg" },
     ],
   },
   {
