@@ -164,7 +164,20 @@ header nav a:hover, header nav a.atual{color:var(--rosa)}
   padding:70px 4vw;
   display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:50px;
 }
-.sobre-foto img{width:100%;max-width:420px;filter:grayscale(1)}
+.sobre-foto img{
+  width:100%;max-width:420px;
+  animation:flutua 6s ease-in-out infinite;
+  transition:transform .4s ease;
+  will-change:transform;
+}
+.sobre-foto img:hover{animation-duration:2.5s;transform:scale(1.03)}
+@keyframes flutua{
+  0%,100%{transform:translateY(0) rotate(0deg)}
+  50%{transform:translateY(-14px) rotate(-1.5deg)}
+}
+@media (prefers-reduced-motion:reduce){
+  .sobre-foto img{animation:none}
+}
 .sobre h2,.contato h2{
   font-size:12px;text-transform:uppercase;letter-spacing:.14em;
   color:var(--rosa);margin-bottom:22px;font-weight:700;
