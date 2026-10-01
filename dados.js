@@ -330,7 +330,7 @@ const PROJECTS = [
     nome: "Moma House",
     ano: "2026",
     capa: "assets/projetos/moma-house/capa.jpg",
-    descricao: "Design para a Moma House, agência de moda, cultura e branding onde atuo como designer e diretor de arte. O trabalho é de conteúdo: posts e carrosséis de Instagram que são a cara pública da agência. A marca se apoia num azul único e saturado, usado sem meio-termo — ora como fundo chapado, ora como duotone que engole a foto inteira — e num monograma M de traço líquido, com terminações em gota, que funciona como assinatura em qualquer peça. A partir daí o sistema se permite trocar de registro conforme o assunto: serifa fina em deco para o institucional, gordinha arredondada de cartaz dos anos 70 para o descontraído, strass e caligrafia para o que tem glamour. O eixo que mantém tudo junto é o azul, o monograma e um certo deboche de referência pop — a maçã de Nova York coberta de adesivo, o alvo de mira, a parede de Marilyns. Cada post se comporta como cartaz: uma ideia, uma pergunta curta, um gesto gráfico forte.",
+    descricao: "Design para a Moma House, agência de moda, cultura e branding onde atuo como designer e diretor de arte. O trabalho é de conteúdo: posts e carrosséis de Instagram que são a cara pública da agência. A marca se apoia num azul único e saturado e em tons de prata,  A partir daí o sistema se permite trocar de registro conforme o assunto: Cada post se comporta como cartaz: uma ideia, uma pergunta curta, um gesto gráfico forte.",
     midias: [
       { tipo: "video", src: "assets/projetos/moma-house/00.mp4", poster: "assets/projetos/moma-house/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/moma-house/01.jpg", largura: "dupla" },
@@ -348,7 +348,7 @@ const PROJECTS = [
     nome: "Ladder Brand",
     ano: "2025",
     capa: "assets/projetos/camisetas-ladder/capa.jpg",
-    descricao: "Design de camisetas para a Ladder, marca de roupa. O trabalho parte de uma ideia simples: camiseta estampada é objeto de pertencimento antes de ser peça de roupa — a pessoa veste porque quer dizer de onde ela é. Daí as estampas assumirem formato de pôster, com a composição ocupando o peito inteiro ou as costas inteiras, em vez do logo discreto no canto. A coleção Having a Ladder Summer trabalha o preto e branco estourado em alto contraste, com as fotos reduzidas a mancha e grão de fotocópia, e a tipografia em caixa baixa solta na lateral, respirando. Já a Burger Gang vai pro lado oposto: monocromia vermelha, lettering script com contorno, pin-up ilustrada e quadriculado de lanchonete, tudo na chave da camiseta de promoção de bar dos anos 50 — com a graça de aplicar o mesmo capricho de uma peça de alfaiataria a um visual que finge ser descartável. O trabalho cobriu concepção das estampas, arte final para serigrafia e as peças de divulgação das coleções.",
+    descricao: "Design de camisetas para a Ladder, marca feminina. As estampas assumem formato de pôster, com a composição ocupando o peito inteiro ou as costas inteiras. O trabalho cobriu concepção das estampas, arte final para serigrafia e as peças de divulgação das coleções.",
     midias: [
       { tipo: "video", src: "assets/projetos/camisetas-ladder/00.mp4", poster: "assets/projetos/camisetas-ladder/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/camisetas-ladder/01.jpg", largura: "dupla" },
