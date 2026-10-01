@@ -253,7 +253,7 @@ const PROJECTS = [
     slug: "wonder-oculos",
     categoria: "design",
     rotulo: "Dir. de Arte",
-    nome: "Wonder Óculos",
+    nome: "Wonder",
     ano: "2025",
     capa: "assets/projetos/wonder-oculos/capa.jpg",
     descricao: "Direção de arte da Wonder, ótica recifense. O trabalho parte de uma premissa: óculos é objeto de rosto, então a comunicação tinha que ser sobre cara — cara de gente, cara de cidade. O resultado é uma expressividade quase de cartoon, mas feita de gente real.  Uma marca de ótica falando de Recife com o humor e a língua de Recife. O sistema se desdobra em campanha, grids de Instagram, catálogo de modelos, comunicados de loja e material de ponto de venda.",
