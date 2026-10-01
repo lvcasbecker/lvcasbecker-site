@@ -271,7 +271,6 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/wonder-oculos/10.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/wonder-oculos/11.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/wonder-oculos/12.jpg", largura: "dupla" },
-      { tipo: "imagem", src: "assets/projetos/wonder-oculos/13.jpg", largura: "dupla" },
     ],
   },
   {
