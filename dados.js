@@ -28,7 +28,7 @@ const CONFIG = {
 const CATEGORIAS = [
   { slug: "design",   nome: "Direção de Arte & Design" },
   { slug: "criativa", nome: "Direção Criativa" },
-  { slug: "moda",     nome: "Moda & Conteúdo" },
+  { slug: "moda",     nome: "Produção" },
 ];
 
 /* ----------------------------------------------------------------
