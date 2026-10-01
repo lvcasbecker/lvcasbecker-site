@@ -132,6 +132,10 @@ const PROJECTS = [
       { tipo: "imagem", src: "assets/projetos/bossa/08.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/bossa/09.jpg", largura: "dupla" },
       { tipo: "imagem", src: "assets/projetos/bossa/10.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/11.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/12.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/13.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bossa/14.jpg", largura: "dupla" },
     ],
   },
   {
