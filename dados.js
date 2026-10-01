@@ -326,13 +326,19 @@ const PROJECTS = [
   {
     slug: "moma-house",
     categoria: "design",
-    rotulo: "Dir. de Arte",
-    nome: "MoMa House",
+    rotulo: "Design",
+    nome: "Moma House",
     ano: "2026",
     capa: "assets/projetos/moma-house/capa.jpg",
-    descricao: "Direção de arte para as frentes da marca — conteúdo, imersões e comunicação institucional.",
+    descricao: "Design para a Moma House, agência de moda, cultura e branding onde atuo como designer e diretor de arte. O trabalho é de conteúdo: posts e carrosséis de Instagram que são a cara pública da agência. A marca se apoia num azul único e saturado, usado sem meio-termo — ora como fundo chapado, ora como duotone que engole a foto inteira — e num monograma M de traço líquido, com terminações em gota, que funciona como assinatura em qualquer peça. A partir daí o sistema se permite trocar de registro conforme o assunto: serifa fina em deco para o institucional, gordinha arredondada de cartaz dos anos 70 para o descontraído, strass e caligrafia para o que tem glamour. O eixo que mantém tudo junto é o azul, o monograma e um certo deboche de referência pop — a maçã de Nova York coberta de adesivo, o alvo de mira, a parede de Marilyns. Cada post se comporta como cartaz: uma ideia, uma pergunta curta, um gesto gráfico forte.",
     midias: [
-      { tipo: "imagem", src: "assets/projetos/moma-house/capa.jpg" },
+      { tipo: "video", src: "assets/projetos/moma-house/00.mp4", poster: "assets/projetos/moma-house/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/moma-house/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moma-house/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moma-house/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moma-house/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moma-house/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moma-house/06.jpg", largura: "dupla" },
     ],
   },
   {
