@@ -348,9 +348,15 @@ const PROJECTS = [
     nome: "Ladder Brand",
     ano: "2025",
     capa: "assets/projetos/camisetas-ladder/capa.jpg",
-    descricao: "Estampas autorais para a marca — ilustração e tipografia com referência retrô americana.",
+    descricao: "Design de camisetas para a Ladder, marca de roupa. O trabalho parte de uma ideia simples: camiseta estampada é objeto de pertencimento antes de ser peça de roupa — a pessoa veste porque quer dizer de onde ela é. Daí as estampas assumirem formato de pôster, com a composição ocupando o peito inteiro ou as costas inteiras, em vez do logo discreto no canto. A coleção Having a Ladder Summer trabalha o preto e branco estourado em alto contraste, com as fotos reduzidas a mancha e grão de fotocópia, e a tipografia em caixa baixa solta na lateral, respirando. Já a Burger Gang vai pro lado oposto: monocromia vermelha, lettering script com contorno, pin-up ilustrada e quadriculado de lanchonete, tudo na chave da camiseta de promoção de bar dos anos 50 — com a graça de aplicar o mesmo capricho de uma peça de alfaiataria a um visual que finge ser descartável. O trabalho cobriu concepção das estampas, arte final para serigrafia e as peças de divulgação das coleções.",
     midias: [
-      { tipo: "imagem", src: "assets/projetos/camisetas-ladder/capa.jpg" },
+      { tipo: "video", src: "assets/projetos/camisetas-ladder/00.mp4", poster: "assets/projetos/camisetas-ladder/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/camisetas-ladder/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/camisetas-ladder/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/camisetas-ladder/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/camisetas-ladder/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/camisetas-ladder/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/camisetas-ladder/06.jpg", largura: "dupla" },
     ],
   },
 
