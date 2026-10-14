@@ -48,7 +48,8 @@
   document.title = `Lvcas Becker — ${p.nome}`;
   document.getElementById('voltar').href = `categoria.html?c=${p.categoria}`;
   document.getElementById('voltar').textContent = `← ${nomeDaCategoria(p.categoria)}`;
-  document.getElementById('rotulo').textContent = p.rotulo;
+  const elRotulo = document.getElementById('rotulo');
+  if (p.rotulo) elRotulo.textContent = p.rotulo; else elRotulo.remove();
   document.getElementById('nome').textContent = p.nome;
 
   const elMeta = document.getElementById('meta');
@@ -57,7 +58,7 @@
   const desc = document.getElementById('descricao');
   if (p.descricao) desc.textContent = p.descricao; else desc.remove();
 
-  const alt = `${p.rotulo} — ${p.nome}`;
+  const alt = p.rotulo ? `${p.rotulo} — ${p.nome}` : p.nome;
   document.getElementById('midias').innerHTML =
     (p.midias || []).map(m => renderMidia(m, alt)).join('') +
     (p.creditos ? `<div class="projeto-creditos">${p.creditos}</div>` : '');
