@@ -47,7 +47,7 @@
     a.href = `projeto.html?p=${p.slug}`;
     a.innerHTML = `
       <div class="card-img"><img src="${p.capa}" alt="${p.rotulo ? p.rotulo + ' — ' : ''}${p.nome}" loading="lazy"></div>
-      <div class="card-legenda">${p.rotulo ? `<b>${p.rotulo}</b><span>/ ${p.nome}</span>` : `<b>${p.nome}</b>`}</div>`;
+      <div class="card-legenda">${p.rotulo ? `<b>${p.nome}</b><span>/ ${p.rotulo}</span>` : `<b>${p.nome}</b>`}</div>`;
     grid.appendChild(a);
   });
 </script>
