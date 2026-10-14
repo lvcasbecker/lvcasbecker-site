@@ -362,53 +362,32 @@ const PROJECTS = [
 
   /* ============ DIREÇÃO CRIATIVA ============ */
   {
-    slug: "ensaio-brazilian-camp",
+    slug: "elke-1",
     categoria: "criativa",
     rotulo: "Dir. Criativa",
-    nome: "Brazilian Camp — O Ensaio",
+    nome: "Elke #1",
     ano: "2025",
-    capa: "assets/projetos/ensaio-brazilian-camp/capa.jpg",
-    descricao: "Ensaio fotográfico em três atos que traduz ícones do imaginário camp brasileiro em imagem de moda.",
+    capa: "assets/projetos/elke-1/capa.jpg",
+    descricao: "O ensaio propõe uma releitura contemporânea de Elke Maravilha como símbolo máximo do camp brasileiro, articulando exagero, teatralidade e artificialidade, construindo uma narrativa visual que não busca a representação literal da figura de Elke, mas sim a atualização de seu espírito performático, entendendo-a como um corpo-manifesto que tensiona normas de gênero, beleza, classe e gosto.",
     midias: [
-      { tipo: "imagem", src: "assets/projetos/ensaio-brazilian-camp/capa.jpg" },
+      { tipo: "video", src: "assets/projetos/elke-1/00.mp4", poster: "assets/projetos/elke-1/00-poster.jpg", largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/elke-1/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-1/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-1/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-1/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-1/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-1/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-1/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-1/08.jpg", largura: "dupla" },
     ],
     creditos:
 `Fotografia: Gabriel Mesgo @gabriel.mesgo
+Vídeo: João Borges @joaoborgesmg
 Styling: Camila Ferza @camilaferza
 Prod. Executiva: Maria Luisa Lisboa @lisboamarialuisa
 Make: Fernanda Godoy @fernandagodoy.makeup
 Cabelo: Chico Domingues @chicodominguess
-Modelos: Lorena Bispo @lorenabispo__ / Eliz Xavier @elizzxavier`,
-  },
-  {
-    slug: "dir-criativa-bruna-paz",
-    categoria: "criativa",
-    rotulo: "Dir. Criativa",
-    nome: "Bruna Paz Brand",
-    ano: "2025",
-    capa: "assets/projetos/dir-criativa-bruna-paz/capa.jpg",
-    descricao: "Direção criativa de campanhas da marca — conceito, locação e construção de imagem.",
-    midias: [
-      { tipo: "imagem", src: "assets/projetos/dir-criativa-bruna-paz/capa.jpg" },
-    ],
-    creditos:
-`Fotografia: Uhgo @__uhgo / Thompson Diego @_thompsondiego
-Modelos: Zarcia Mendes @zarciamendes / Ashley Nicole @ashleynicolebrasil`,
-  },
-  {
-    slug: "caba",
-    categoria: "criativa",
-    rotulo: "Dir. Criativa",
-    nome: "Caba",
-    ano: "2025",
-    capa: "assets/projetos/caba/capa.jpg",
-    descricao: "Direção criativa de campanha masculina — alfaiataria leve em diálogo com a arquitetura.",
-    midias: [
-      { tipo: "imagem", src: "assets/projetos/caba/capa.jpg" },
-    ],
-    creditos:
-`Fotografia: Gabriel Maia @gmaiaphotos
-Styling: Gabriela Queiroz @gabqueif`,
+Modelo: Lorena Bispo @lorenabispo__`,
   },
 
   /* ============ MODA & CONTEÚDO ============ */
