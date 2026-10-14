@@ -364,8 +364,8 @@ const PROJECTS = [
   {
     slug: "elke-1",
     categoria: "criativa",
-    rotulo: "Dir. Criativa",
-    nome: "Elke #1",
+    rotulo: "",
+    nome: "ELKE #1",
     ano: "2025",
     capa: "assets/projetos/elke-1/capa.jpg",
     descricao: "O ensaio propõe uma releitura contemporânea de Elke Maravilha como símbolo máximo do camp brasileiro, articulando exagero, teatralidade e artificialidade, construindo uma narrativa visual que não busca a representação literal da figura de Elke, mas sim a atualização de seu espírito performático, entendendo-a como um corpo-manifesto que tensiona normas de gênero, beleza, classe e gosto.",
