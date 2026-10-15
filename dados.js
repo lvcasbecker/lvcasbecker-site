@@ -366,7 +366,7 @@ const PROJECTS = [
     categoria: "criativa",
     rotulo: "",
     nome: "ELKE #1",
-    ano: "2025",
+    ano: "2026",
     capa: "assets/projetos/elke-1/capa.jpg",
     descricao: "O ensaio propõe uma releitura contemporânea de Elke Maravilha como símbolo máximo do camp brasileiro, articulando exagero, teatralidade e artificialidade, construindo uma narrativa visual que não busca a representação literal da figura de Elke, mas sim a atualização de seu espírito performático, entendendo-a como um corpo-manifesto que tensiona normas de gênero, beleza, classe e gosto.",
     midias: [
@@ -394,7 +394,7 @@ Modelo: Lorena Bispo @lorenabispo__`,
     categoria: "criativa",
     rotulo: "",
     nome: "TIAZINHA",
-    ano: "2025",
+    ano: "2026",
     capa: "assets/projetos/tiazinha/capa.jpg",
     descricao: "O ensaio propõe uma releitura contemporânea de Tiazinha como ícone do camp brasileiro, colocando a sexualidade, enigma e maximalista em evidência, construindo uma narrativa visual que não busca a representação literal da figura de Tiazinha, mas sim a atualização e reinterpretação da sua persona, colocando além de objeto sexual e fantasia brasileira, e sim como um personagem reformulado nos moldes contemporâneos de moda e estética.",
     midias: [
