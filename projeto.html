@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lvcas Becker — Projeto</title>
+<title>LVCAS BECKER</title>
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -45,7 +45,7 @@
   const i = PROJECTS.findIndex(p => p.slug === slug);
   const p = PROJECTS[i] || PROJECTS[0];
 
-  document.title = `Lvcas Becker — ${p.nome}`;
+  document.title = `${p.nome.toUpperCase()} — LVCAS BECKER`;
   document.getElementById('voltar').href = `categoria.html?c=${p.categoria}`;
   document.getElementById('voltar').textContent = `← ${nomeDaCategoria(p.categoria)}`;
   const elRotulo = document.getElementById('rotulo');
