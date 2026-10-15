@@ -445,6 +445,33 @@ Make: Fernanda Godoy @fernandagodoy.makeup
 Cabelo: Chico Domingues @chicodominguess
 Modelo: Lorena Bispo @lorenabispo__`,
   },
+  {
+    slug: "lookbooks-bruna-paz",
+    categoria: "criativa",
+    rotulo: "",
+    nome: "LOOKBOOKS BRUNA PAZ",
+    ano: "2024—2026",
+    capa: "assets/projetos/lookbooks-bruna-paz/capa.jpg",
+    descricao: "Direção criativa dos lookbooks da Bruna Paz entre 2024 e 2026. A cada coleçãoo, a construção de imagem que apresenta a um novo tipo de mulher e persona da marca.",
+    midias: [
+      { tipo: "video", src: "assets/projetos/lookbooks-bruna-paz/00.mp4", poster: "assets/projetos/lookbooks-bruna-paz/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/08.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/09.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/10.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/11.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/lookbooks-bruna-paz/12.jpg", largura: "dupla" },
+    ],
+    creditos:
+`Fotografia: Rodrigo Nasi @nasi_rodrigo / Lucas Soares @lucassoarts
+Produção: Camila Mesel @cmesel`,
+  },
 
   /* ============ MODA & CONTEÚDO ============ */
   {
