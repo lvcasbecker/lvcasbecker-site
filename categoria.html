@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lvcas Becker — Trabalhos</title>
+<title>TRABALHOS</title>
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -35,7 +35,7 @@
   montarHeader();
   const slug = pegarParam('c') || CATEGORIAS[0].slug;
   const nome = nomeDaCategoria(slug);
-  document.title = `Lvcas Becker — ${nome}`;
+  document.title = nome.toUpperCase();
   document.getElementById('titulo-categoria').innerHTML =
     nome.replace('&amp;','&').replace(' & ',' <em>&</em> ');
 
