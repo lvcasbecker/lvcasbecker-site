@@ -542,16 +542,24 @@ Produção: Camila Mesel @cmesel`,
     slug: "cleber-lima",
     categoria: "moda",
     rotulo: "Prod. de Moda",
-    nome: "Cleber Lima",
+    nome: "Versus",
     ano: "2025",
     capa: "assets/projetos/cleber-lima/capa.jpg",
-    descricao: "Produção de moda para editorial em preto e branco — silhuetas gráficas e acessórios como pontuação.",
     midias: [
-      { tipo: "imagem", src: "assets/projetos/cleber-lima/capa.jpg" },
+      { tipo: "video", src: "assets/projetos/cleber-lima/00.mp4", poster: "assets/projetos/cleber-lima/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/cleber-lima/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/cleber-lima/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/cleber-lima/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/cleber-lima/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/cleber-lima/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/cleber-lima/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/cleber-lima/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/cleber-lima/08.jpg", largura: "dupla" },
     ],
     creditos:
 `Fotografia: Ernando Prado @ernandoprdo
-Styling: Maria Luisa Lisboa @lisboamarialuisa`,
+Styling: Maria Luisa Lisboa @lisboamarialuisa
+Modelos: Ary Z @aryz_____ / Devon @devonogni / Heitor Souto @heeitorsouto`,
   },
   {
     slug: "mare-suspensa",
@@ -575,7 +583,8 @@ Styling: Maria Luisa Lisboa @lisboamarialuisa`,
     ],
     creditos:
 `Fotografia: Ernando Prado @ernandoprdo
-Styling: Maria Luisa Lisboa @lisboamarialuisa`,
+Styling: Maria Luisa Lisboa @lisboamarialuisa
+Modelo: Ary Z @aryz_____`,
   },
   {
     slug: "moda-bruna-paz",
