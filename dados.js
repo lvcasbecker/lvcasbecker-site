@@ -389,6 +389,34 @@ Make: Fernanda Godoy @fernandagodoy.makeup
 Cabelo: Chico Domingues @chicodominguess
 Modelo: Lorena Bispo @lorenabispo__`,
   },
+  {
+    slug: "tiazinha",
+    categoria: "criativa",
+    rotulo: "",
+    nome: "TIAZINHA",
+    ano: "2025",
+    capa: "assets/projetos/tiazinha/capa.jpg",
+    descricao: "O ensaio propõe uma releitura contemporânea de Tiazinha como ícone do camp brasileiro, colocando a sexualidade, enigma e maximalista em evidência, construindo uma narrativa visual que não busca a representação literal da figura de Tiazinha, mas sim a atualização e reinterpretação da sua persona, colocando além de objeto sexual e fantasia brasileira, e sim como um personagem reformulado nos moldes contemporâneos de moda e estética.",
+    midias: [
+      { tipo: "video", src: "assets/projetos/tiazinha/00.mp4", poster: "assets/projetos/tiazinha/00-poster.jpg", largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/tiazinha/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/tiazinha/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/tiazinha/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/tiazinha/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/tiazinha/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/tiazinha/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/tiazinha/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/tiazinha/08.jpg", largura: "dupla" },
+    ],
+    creditos:
+`Fotografia: Gabriel Mesgo @gabriel.mesgo
+Vídeo: João Borges @joaoborgesmg
+Styling: Camila Ferza @camilaferza
+Prod. Executiva: Maria Luisa Lisboa @lisboamarialuisa
+Make: Fernanda Godoy @fernandagodoy.makeup
+Cabelo: Chico Domingues @chicodominguess
+Modelo: Eliz Xavier @elizzxavierr`,
+  },
 
   /* ============ MODA & CONTEÚDO ============ */
   {
