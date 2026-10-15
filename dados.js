@@ -587,21 +587,6 @@ Styling: Maria Luisa Lisboa @lisboamarialuisa
 Modelo: Ary Z @aryz_____`,
   },
   {
-    slug: "moda-bruna-paz",
-    categoria: "moda",
-    rotulo: "Prod. de Moda",
-    nome: "Bruna Paz Brand",
-    ano: "2025",
-    capa: "assets/projetos/moda-bruna-paz/capa.jpg",
-    descricao: "Produção de moda para campanha da marca — looks, locação e narrativa de coleção.",
-    midias: [
-      { tipo: "imagem", src: "assets/projetos/moda-bruna-paz/capa.jpg" },
-    ],
-    creditos:
-`Fotografia: Uhgo @__uhgo
-Modelo: Guilhermina Montarroyos @guimontarroyos`,
-  },
-  {
     slug: "ensaio-autoral",
     categoria: "moda",
     rotulo: "Prod. de Moda",
