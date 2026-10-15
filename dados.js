@@ -446,6 +446,28 @@ Cabelo: Chico Domingues @chicodominguess
 Modelo: Lorena Bispo @lorenabispo__`,
   },
   {
+    slug: "bpss26",
+    categoria: "criativa",
+    rotulo: "",
+    nome: "BPSS26",
+    ano: "2026",
+    capa: "assets/projetos/bpss26/capa.jpg",
+    descricao: "Direção criativa da campanha de verão da Bruna Paz. A coleção pede sol e água, e a campanha foi construída nesse clima de fim de tarde na piscina — corpo relaxado, luz quente e as peças vivendo a estação em vez de posarem para ela.",
+    midias: [
+      { tipo: "video", src: "assets/projetos/bpss26/00.mp4", poster: "assets/projetos/bpss26/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/bpss26/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss26/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss26/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss26/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss26/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss26/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss26/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss26/08.jpg", largura: "dupla" },
+    ],
+    creditos:
+`Fotografia: Thompson Diego @_thompsondiego`,
+  },
+  {
     slug: "lookbooks-bruna-paz",
     categoria: "criativa",
     rotulo: "",
