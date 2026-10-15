@@ -452,7 +452,6 @@ Modelo: Lorena Bispo @lorenabispo__`,
     nome: "BPSS26",
     ano: "2026",
     capa: "assets/projetos/bpss26/capa.jpg",
-    descricao: 
     midias: [
       { tipo: "video", src: "assets/projetos/bpss26/00.mp4", poster: "assets/projetos/bpss26/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/bpss26/01.jpg", largura: "dupla" },
