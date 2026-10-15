@@ -417,6 +417,34 @@ Make: Fernanda Godoy @fernandagodoy.makeup
 Cabelo: Chico Domingues @chicodominguess
 Modelo: Eliz Xavier @elizzxavierr`,
   },
+  {
+    slug: "elke-2",
+    categoria: "criativa",
+    rotulo: "",
+    nome: "ELKE #2",
+    ano: "2026",
+    capa: "assets/projetos/elke-2/capa.jpg",
+    descricao: "O ensaio propõe uma releitura contemporânea de Elke Maravilha como símbolo máximo do camp brasileiro, articulando exagero, teatralidade e artificialidade, construindo uma narrativa visual que não busca a representação literal da figura de Elke, mas sim a atualização de seu espírito performático, entendendo-a como um corpo-manifesto que tensiona normas de gênero, beleza, classe e gosto.",
+    midias: [
+      { tipo: "video", src: "assets/projetos/elke-2/00.mp4", poster: "assets/projetos/elke-2/00-poster.jpg", largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/elke-2/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-2/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-2/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-2/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-2/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-2/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-2/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/elke-2/08.jpg", largura: "dupla" },
+    ],
+    creditos:
+`Fotografia: Gabriel Mesgo @gabriel.mesgo
+Vídeo: João Borges @joaoborgesmg
+Styling: Camila Ferza @camilaferza
+Prod. Executiva: Maria Luisa Lisboa @lisboamarialuisa
+Make: Fernanda Godoy @fernandagodoy.makeup
+Cabelo: Chico Domingues @chicodominguess
+Modelo: Lorena Bispo @lorenabispo__`,
+  },
 
   /* ============ MODA & CONTEÚDO ============ */
   {
