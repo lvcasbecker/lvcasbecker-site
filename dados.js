@@ -464,7 +464,8 @@ Modelo: Lorena Bispo @lorenabispo__`,
       { tipo: "imagem", src: "assets/projetos/bpss26/08.jpg", largura: "dupla" },
     ],
     creditos:
-`Fotografia: Thompson Diego @_thompsondiego`,
+`Fotografia: Thompson Diego @_thompsondiego
+Modelo: Ashley Nicole @ashleynicolebrasil`,
   },
   {
     slug: "bpfw25",
@@ -483,7 +484,30 @@ Modelo: Lorena Bispo @lorenabispo__`,
       { tipo: "imagem", src: "assets/projetos/bpfw25/06.jpg", largura: "dupla" },
     ],
     creditos:
-`Fotografia: Lucas Soares @lucassoarts`,
+`Fotografia: Lucas Soares @lucassoarts
+Modelo: Guilhermina Montarroyos @guimontarroyos`,
+  },
+  {
+    slug: "bpss25",
+    categoria: "criativa",
+    rotulo: "",
+    nome: "BPSS25",
+    ano: "2025",
+    capa: "assets/projetos/bpss25/capa.jpg",
+    midias: [
+      { tipo: "video", src: "assets/projetos/bpss25/00.mp4", poster: "assets/projetos/bpss25/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/bpss25/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss25/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss25/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss25/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss25/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss25/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss25/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/bpss25/08.jpg", largura: "dupla" },
+    ],
+    creditos:
+`Fotografia: Uhgo @__uhgo
+Modelo: Zarcia Mendes @zarciamendes`,
   },
   {
     slug: "lookbooks-bruna-paz",
