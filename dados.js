@@ -590,12 +590,19 @@ Modelo: Guilhermina Montarroyos @guimontarroyos`,
     nome: "Ensaio Autoral",
     ano: "2025",
     capa: "assets/projetos/ensaio-autoral/capa.jpg",
-    descricao: "Ensaio autoral de estúdio.",
     midias: [
-      { tipo: "imagem", src: "assets/projetos/ensaio-autoral/capa.jpg" },
+      { tipo: "video", src: "assets/projetos/ensaio-autoral/00.mp4", poster: "assets/projetos/ensaio-autoral/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/ensaio-autoral/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/ensaio-autoral/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/ensaio-autoral/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/ensaio-autoral/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/ensaio-autoral/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/ensaio-autoral/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/ensaio-autoral/07.jpg", largura: "dupla" },
     ],
     creditos:
 `Fotografia: Thompson Diego @_thompsondiego
+Styling: Maria Luisa Lisboa @lisboamarialuisa
 Modelo: Sabryna Oliveira @sabrynaoliveirra`,
   },
   {
