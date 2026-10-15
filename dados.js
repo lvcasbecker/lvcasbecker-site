@@ -452,7 +452,7 @@ Modelo: Lorena Bispo @lorenabispo__`,
     nome: "BPSS26",
     ano: "2026",
     capa: "assets/projetos/bpss26/capa.jpg",
-    descricao: "Direção criativa da campanha de verão da Bruna Paz. A coleção pede sol e água, e a campanha foi construída nesse clima de fim de tarde na piscina — corpo relaxado, luz quente e as peças vivendo a estação em vez de posarem para ela.",
+    descricao: "Direção criativa da campanha de verão da Bruna Paz.",
     midias: [
       { tipo: "video", src: "assets/projetos/bpss26/00.mp4", poster: "assets/projetos/bpss26/00-poster.jpg", autoplay: true, largura: "sozinha" },
       { tipo: "imagem", src: "assets/projetos/bpss26/01.jpg", largura: "dupla" },
