@@ -654,4 +654,26 @@ Modelo: Amanda Souza @amandastepha`,
 Styling: Maria Luisa Lisboa @lisboamarialuisa
 Modelos: Sabryna Oliveira @sabrynaoliveirra / Julia Voll @julialira.voll`,
   },
+  {
+    slug: "caba",
+    categoria: "moda",
+    rotulo: "Prod. de Moda",
+    nome: "Caba",
+    ano: "2026",
+    capa: "assets/projetos/caba/capa.jpg",
+    midias: [
+      { tipo: "video", src: "assets/projetos/caba/00.mp4", poster: "assets/projetos/caba/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/caba/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/caba/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/caba/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/caba/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/caba/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/caba/06.jpg", largura: "dupla" },
+    ],
+    creditos:
+`Fotografia: Gabriel Maia @gmaiaphotos
+Dir. Criativa: Eduarda Monteiro @eduardamonteiro
+Ass. de Styling: Gab Queif @gabqueif
+Modelos: Ilan Meira @ilanmeira / Victor Brown @brown_victor`,
+  },
 ];
