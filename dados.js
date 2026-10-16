@@ -615,12 +615,18 @@ Modelo: Sabryna Oliveira @sabrynaoliveirra`,
     nome: "Amazing Model",
     ano: "2025",
     capa: "assets/projetos/amazing-model/capa.jpg",
-    descricao: "Produção de moda para material de polaroides de agência.",
     midias: [
-      { tipo: "imagem", src: "assets/projetos/amazing-model/capa.jpg" },
+      { tipo: "video", src: "assets/projetos/amazing-model/00.mp4", poster: "assets/projetos/amazing-model/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/amazing-model/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/amazing-model/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/amazing-model/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/amazing-model/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/amazing-model/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/amazing-model/06.jpg", largura: "dupla" },
     ],
     creditos:
 `Fotografia: Pedro Fonseca @fonsecapedroo
+Styling: Maria Luisa Lisboa @lisboamarialuisa
 Modelo: Amanda Souza @amandastepha`,
   },
   {
