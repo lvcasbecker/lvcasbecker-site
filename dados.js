@@ -634,14 +634,24 @@ Modelo: Amanda Souza @amandastepha`,
     categoria: "moda",
     rotulo: "Prod. de Moda",
     nome: "Ladder Brand",
-    ano: "2025",
+    ano: "2024",
     capa: "assets/projetos/moda-ladder/capa.jpg",
-    descricao: "Produção de moda para editorial da marca",
     midias: [
-      { tipo: "imagem", src: "assets/projetos/moda-ladder/capa.jpg" },
+      { tipo: "video", src: "assets/projetos/moda-ladder/00.mp4", poster: "assets/projetos/moda-ladder/00-poster.jpg", autoplay: true, largura: "sozinha" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/01.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/02.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/03.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/04.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/05.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/06.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/07.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/08.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/09.jpg", largura: "dupla" },
+      { tipo: "imagem", src: "assets/projetos/moda-ladder/10.jpg", largura: "dupla" },
     ],
     creditos:
 `Fotografia: Thompson Diego @_thompsondiego
+Styling: Maria Luisa Lisboa @lisboamarialuisa
 Modelos: Sabryna Oliveira @sabrynaoliveirra / Julia Voll @julialira.voll`,
   },
 ];
