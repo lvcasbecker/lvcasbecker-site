@@ -237,3 +237,11 @@ footer{
 
 /* e-mail copiado no contato */
 .contato-links .copiado{color:var(--rosa)}
+
+/* ---------- cursor rosa ---------- */
+body{
+  cursor:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M2%201%20L2%2018%20L6.2%2014.1%20L8.8%2019.6%20L11.6%2018.3%20L9%2012.9%20L15%2012.4%20Z%22%20fill%3D%22%23ec0f7f%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%221.1%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E") 2 1, auto;
+}
+a, button, .card, .indice a, .entrada, [role="button"]{
+  cursor:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Ccircle%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%226%22%20fill%3D%22%23ec0f7f%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%221.2%22%2F%3E%3C%2Fsvg%3E") 10 10, pointer;
+}
